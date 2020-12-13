@@ -8,7 +8,7 @@ const app = express();
 // Middleware
 app.use(express.json());
 app.use(cors());
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 3000;
 
 // DB config
 const connectionUrl =
